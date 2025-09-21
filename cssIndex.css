@@ -1,0 +1,73 @@
+/* === Estilo geral da página === */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* === Cabeçalho === */
+header {
+  background: #222;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Menu de navegação */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  gap: 15px; /* espaço entre os links */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* === Conteúdo principal === */
+main {
+  padding: 20px;
+}
+
+/* Todas as seções começam escondidas */
+.page-section {
+  display: none;
+}
+
+/* Apenas a seção ativa aparece */
+.page-section.active {
+  display: block;
+}
+
+/* Espaçamento entre seções */
+section {
+  margin-bottom: 30px;
+}
+
+/* Cartões de projetos */
+.card {
+  background: white;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* === Rodapé fixo === */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
